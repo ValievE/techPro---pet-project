@@ -1,0 +1,27 @@
+.catalog-page {
+  width: 100%;
+  max-width: 1384px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 58px;
+  height: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 300;
+  cursor: default;
+}
+
+.catalog {
+  display: grid;
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 10px;
+  grid-template-columns: 274px 1fr;
+  overflow: hidden;
+}

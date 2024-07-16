@@ -1,0 +1,170 @@
+[
+  {
+    "id": 0,
+    "fullname": "1STPLAYER AR 7.5 [PS-750AR]",
+    "brand": "1STPLAYER",
+    "price": 7690,
+    "inStock": 4,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "750 Вт",
+      "certificate": "Gold",
+      "protection": "OPP, OVP, SCP, UVP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "DEEPCOOL PF500 [R-PF500D-HA0B-EU]",
+    "brand": "DEEPCOOL",
+    "price": 3990,
+    "inStock": 3,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "500 Вт",
+      "certificate": "Standart",
+      "protection": "OPP, OVP, SCP, UVP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "1STPLAYER FK 5.0 [PS-500FK]",
+    "brand": "1STPLAYER",
+    "price": 3390,
+    "inStock": 2,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "500 Вт",
+      "certificate": "Нет",
+      "protection": "OPP, OVP, SCP, UVP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "MSI MAG A500DN [306-7ZP6A11-809]",
+    "brand": "MSI",
+    "price": 4330,
+    "inStock": 6,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "500 Вт",
+      "certificate": "Standart",
+      "protection": "OCP, OPP, OTP, OVP, SCP, UVP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "DEEPCOOL PK650D [R-PK650D-FA0B-EU]",
+    "brand": "DEEPCOOL",
+    "price": 6190,
+    "inStock": 4,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "650 Вт",
+      "certificate": "Bronze",
+      "protection": "OCP, OPP, OTP, OVP, SCP, UVP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 5,
+    "fullname": "DEEPCOOL PM750D [PM750D]",
+    "brand": "DEEPCOOL",
+    "price": 8690,
+    "inStock": 4,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "750 Вт",
+      "certificate": "Gold",
+      "protection": "OCP, OPP, OTP, OVP, SCP, UVP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 6,
+    "fullname": "MSI MAG A650BNL",
+    "brand": "MSI",
+    "price": 5490,
+    "inStock": 1,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "650 Вт",
+      "certificate": "Bronze",
+      "protection": "OCP, OPP, OVP, SCP",
+      "form": "ATX"
+    }
+  },
+  {
+    "id": 7,
+    "fullname": "MSI MAG A750BN PCIE5",
+    "brand": "1STPLAYER",
+    "price": 9690,
+    "inStock": 3,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "power": "750 Вт",
+      "certificate": "Bronze",
+      "protection": "OCP, OPP, OTP, OVP, SCP",
+      "form": "ATX"
+    }
+  }
+]

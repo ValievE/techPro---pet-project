@@ -1,0 +1,200 @@
+[
+  {
+    "id": 0,
+    "fullname": "ASUS TUF Gaming VG27AQA1A",
+    "type": "Монитор",
+    "brand": "ASUS",
+    "price": 21890,
+    "inStock": 2,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 615,
+      "length": 366,
+      "weight": 4.65
+    },
+    "info": {
+      "frequency": "170 Гц",
+      "diagonal": "27\"",
+      "curved": false,
+      "resolution": "2560x1440"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "ASUS ROG Strix Scope RX",
+    "type": "Клавиатура",
+    "brand": "ASUS",
+    "price": 12490,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 137,
+      "length": 440,
+      "weight": 1.07
+    },
+    "info": {
+      "light": true,
+      "switches": "ASUS ROG RX RED",
+      "color": "Черный",
+      "language": "английский, русский"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "Logitech G102 LIGHTSYNC",
+    "type": "Мышь",
+    "brand": "Logitech",
+    "price": 2299,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 62,
+      "length": 116,
+      "weight": 0.1
+    },
+    "info": {
+      "frequency": "1000 Гц",
+      "resolution": "8000 dpi",
+      "light": true,
+      "color": "Черный"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "MSI Optix G321CQP",
+    "type": "Монитор",
+    "brand": "MSI",
+    "price": 24490,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 704,
+      "length": 422,
+      "weight": 6.95
+    },
+    "info": {
+      "frequency": "165 Гц",
+      "diagonal": "31.5\"",
+      "curved": true,
+      "resolution": "2560x1440"
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "Samsung Odyssey G5 S32CG550EI",
+    "type": "Монитор",
+    "brand": "Samsung",
+    "price": 29890,
+    "inStock": 3,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 24,
+    "size": {
+      "width": 710,
+      "length": 439,
+      "weight": 5.2
+    },
+    "info": {
+      "frequency": "165 Гц",
+      "diagonal": "31.5\"",
+      "curved": true,
+      "resolution": "2560x1440"
+    }
+  },
+  {
+    "id": 5,
+    "fullname": "Razer Cobra",
+    "type": "Мышь",
+    "brand": "Razer",
+    "price": 4599,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 62,
+      "length": 119,
+      "weight": 0.058
+    },
+    "info": {
+      "frequency": "1000 Гц",
+      "resolution": "8500 dpi",
+      "light": true,
+      "color": "Черный"
+    }
+  },
+  {
+    "id": 6,
+    "fullname": "Logitech G412 TKL SE",
+    "type": "Клавиатура",
+    "brand": "Logitech",
+    "price": 3490,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 127,
+      "length": 355,
+      "weight": 0.65
+    },
+    "info": {
+      "light": true,
+      "switches": "GL Tactile",
+      "color": "Черный",
+      "language": "английский, русский"
+    }
+  },
+  {
+    "id": 7,
+    "fullname": "Logitech G413",
+    "type": "Клавиатура",
+    "brand": "Logitech",
+    "price": 5890,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 132,
+      "length": 445,
+      "weight": 1.07
+    },
+    "info": {
+      "light": true,
+      "switches": "Romer-G Tactile",
+      "color": "Черный",
+      "language": "английский, русский"
+    }
+  },
+  {
+    "id": 8,
+    "fullname": "Razer DeathAdder Essential",
+    "type": "Мышь",
+    "brand": "Razer",
+    "price": 1949,
+    "inStock": 9,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 73,
+      "length": 126,
+      "weight": 0.104
+    },
+    "info": {
+      "frequency": "1000 Гц",
+      "resolution": "6400 dpi",
+      "light": true,
+      "color": "Черный"
+    }
+  }
+]

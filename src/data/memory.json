@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "fullname": "Kingston FURY Renegade [SFYRDK2000G]",
+    "brand": "Kingston",
+    "model": "FURY Renegade",
+    "price": 19890,
+    "inStock": 2,
+    "images": ["1.webp"],
+    "country": "Япония",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "type": "SSD M.2",
+      "memory": "2000GB",
+      "dram": true,
+      "nvme": true,
+      "read": "7300 МБайт/с",
+      "write": "7000 МБайт/с"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "Kingston FURY Renegade [SFYRSK1000G]",
+    "brand": "Kingston",
+    "model": "FURY Renegade",
+    "price": 12900,
+    "inStock": 2,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "type": "SSD M.2",
+      "memory": "1000GB",
+      "dram": false,
+      "nvme": true,
+      "read": "7300 МБайт/с",
+      "write": "6000 МБайт/с"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "Samsung 970 EVO Plus [MZ-V7S1T0BW]",
+    "brand": "Samsung",
+    "model": "970 EVO Plus",
+    "price": 11890,
+    "inStock": 2,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "type": "SSD M.2",
+      "memory": "1000GB",
+      "dram": true,
+      "nvme": true,
+      "read": "3500 МБайт/с",
+      "write": "3300 МБайт/с"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "Samsung 970 EVO Plus [MZ-V7S2T0BAM]",
+    "brand": "Samsung",
+    "model": "970 EVO Plus",
+    "price": 18190,
+    "inStock": 4,
+    "images": ["1.webp"],
+    "country": "Тайланд",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "type": "SSD M.2",
+      "memory": "2000GB",
+      "dram": true,
+      "nvme": true,
+      "read": "3500 МБайт/с",
+      "write": "3300 МБайт/с"
+    }
+  }
+]

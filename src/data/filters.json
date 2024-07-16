@@ -1,0 +1,55 @@
+[
+  {
+    "id": 0,
+    "title": "Бренд",
+    "main_parameter": "brand",
+    "sections": [
+      "motherboards",
+      "cpus",
+      "frames",
+      "ram",
+      "videocards",
+      "power",
+      "periphery",
+      "memory"
+    ]
+  },
+
+  {
+    "id": 1,
+    "title": "Тип",
+    "main_parameter": "type",
+    "sections": ["periphery"]
+  },
+  {
+    "id": 2,
+    "title": "Цвет",
+    "desc_parameter": "color",
+    "sections": ["frames"]
+  },
+  {
+    "id": 3,
+    "title": "Мощность",
+    "desc_parameter": "power",
+    "sections": ["power"]
+  },
+  {
+    "id": 4,
+    "title": "Сокет",
+    "desc_parameter": "socket",
+    "sections": ["motherboards", "cpus"]
+  },
+
+  {
+    "id": 5,
+    "title": "Форм-фактор",
+    "desc_parameter": "form",
+    "sections": ["motherboards", "frames"]
+  },
+  {
+    "id": 6,
+    "title": "Производитель чипа",
+    "desc_parameter": "manufacturer",
+    "sections": ["videocards"]
+  }
+]

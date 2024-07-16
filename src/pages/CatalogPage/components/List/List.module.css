@@ -1,0 +1,11 @@
+.list {
+  width: 100%;
+  height: 100%;
+  padding: 30px 26px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 180px;
+  gap: 18px;
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "fullname": "ARDOR GAMING Rare Minicase MS3 Mesh BG ARGB",
+    "brand": "ARDOR GAMING",
+    "price": 3599,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 18,
+    "size": {
+      "length": 372,
+      "width": 208,
+      "height": 426,
+      "weight": 5.2
+    },
+    "info": {
+      "form": "Mini-Tower",
+      "light": true,
+      "color": "Черный",
+      "motherboards": "Micro-ATX, Mini-ITX"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "ARDOR GAMING Rare MM1",
+    "brand": "ARDOR GAMING",
+    "price": 3190,
+    "inStock": 2,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 18,
+    "size": {
+      "length": 405,
+      "width": 210,
+      "height": 445,
+      "weight": 5.4
+    },
+    "info": {
+      "form": "Mid-Tower",
+      "light": true,
+      "color": "Черный",
+      "motherboards": "Micro-ATX, Mini-ITX, Standard-ATX"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "DEEPCOOL CC560 WH",
+    "brand": "DEEPCOOL",
+    "price": 4599,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "length": 416,
+      "width": 210,
+      "height": 477,
+      "weight": 5.25
+    },
+    "info": {
+      "form": "Mid-Tower",
+      "light": true,
+      "color": "Белый",
+      "motherboards": "Micro-ATX, Mini-ITX, Standard-ATX"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "Cougar MX360 RGB",
+    "brand": "Cougar",
+    "price": 4199,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "length": 378,
+      "width": 210,
+      "height": 460,
+      "weight": 4.8
+    },
+    "info": {
+      "form": "Mid-Tower",
+      "light": true,
+      "color": "Черный",
+      "motherboards": "Micro-ATX, Mini-ITX, Standard-ATX"
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "DEEPCOOL MATREXX 50 MESH 4FS",
+    "brand": "DEEPCOOL",
+    "price": 5399,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "length": 442,
+      "width": 210,
+      "height": 479,
+      "weight": 7.31
+    },
+    "info": {
+      "form": "Mid-Tower",
+      "light": true,
+      "color": "Черный",
+      "motherboards": "E-ATX, Micro-ATX, Mini-ITX, Standard-ATX"
+    }
+  }
+]

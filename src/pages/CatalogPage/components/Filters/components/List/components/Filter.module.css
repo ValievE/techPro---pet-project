@@ -1,0 +1,88 @@
+.filter {
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  opacity: 0.8;
+  cursor: default;
+}
+
+.selector {
+  width: 100%;
+  position: relative;
+  height: fit-content;
+}
+
+.value {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  height: 30px;
+  background-color: #9fe545;
+  border-radius: 0 0 15px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  background-image: url("/public/icons/icon_arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.values {
+  box-sizing: border-box;
+  padding: 0;
+  height: fit-content;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.values_active {
+  height: fit-content;
+  padding: 30px 0 0 0;
+}
+
+.values_active .list-component {
+  height: 30px;
+}
+
+.list-component {
+  cursor: pointer;
+  width: 100%;
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 13px;
+  outline: none;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  padding-inline: 0;
+  padding: 0 10px;
+  height: 0;
+  overflow: hidden;
+}
+
+.list-component:hover {
+  background-color: #ffffff6b;
+}

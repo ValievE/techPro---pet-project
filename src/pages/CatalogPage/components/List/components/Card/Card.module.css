@@ -1,0 +1,92 @@
+.card {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  align-items: center;
+  border-radius: 0 0 15px 0;
+  overflow: hidden;
+}
+
+.card-img {
+  align-self: center;
+  justify-self: center;
+  width: 90%;
+  height: 90%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.card-info {
+  cursor: default;
+  box-sizing: border-box;
+  padding: 10px 20px 0 20px;
+  display: grid;
+  grid-template-rows: 25% 50% 25%;
+  height: 100%;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 14px;
+  align-self: center;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  height: 100%;
+}
+
+.card-text-line {
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.6;
+  line-height: 14px;
+}
+
+.card-property {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.card-value {
+  font-weight: 700;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-price {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  height: 100%;
+}
+
+.card-button {
+  height: 22px;
+  width: 22px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}

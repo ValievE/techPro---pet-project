@@ -1,0 +1,41 @@
+.button {
+  width: fit-content;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0 0 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button:active {
+  background-color: lawngreen;
+}
+
+.image {
+  width: 28px;
+  height: 28px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button[disabled] {
+  opacity: 1;
+  cursor: default;
+  background-color: lightgray;
+}
+
+.button[disabled] .text,
+.button[disabled] .image {
+  opacity: 0.6;
+}

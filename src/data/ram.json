@@ -1,0 +1,149 @@
+[
+  {
+    "id": 0,
+    "fullname": "G.Skill RIPJAWS S5 32 GB",
+    "brand": "G.Skill",
+    "price": 10890,
+    "inStock": 2,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR5",
+      "value": "32GB",
+      "timing": "30-40-40-96",
+      "frequency": "6000 МГц"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "Kingston FURY Beast Black 8GB",
+    "brand": "Kingston",
+    "price": 2490,
+    "inStock": 5,
+    "images": ["1.webp"],
+    "country": "Китай",
+    "guarantee": 120,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR4",
+      "value": "8GB",
+      "timing": "16-18-18",
+      "frequency": "3200 МГц"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "Kingston Fury Beast Black AMD 16GB",
+    "brand": "Kingston",
+    "price": 7890,
+    "inStock": 6,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 120,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR5",
+      "value": "16GB",
+      "timing": "36-40-40",
+      "frequency": "5200 МГц"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "G.Skill TRIDENT Z5 32GB",
+    "brand": "G.Skill",
+    "price": 11890,
+    "inStock": 5,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 60,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR5",
+      "value": "32GB",
+      "timing": "30-40-40-96",
+      "frequency": "6000 МГц"
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "Patriot Viper 4 Blackout 8GB",
+    "brand": "Patriot",
+    "price": 3490,
+    "inStock": 2,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 120,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR4",
+      "value": "8GB",
+      "timing": "16-20-20-40",
+      "frequency": "3200 МГц"
+    }
+  },
+  {
+    "id": 5,
+    "fullname": "Kingston FURY Beast Black RGB 8GB",
+    "brand": "Kingston",
+    "price": 2990,
+    "inStock": 9,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 120,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR4",
+      "value": "8GB",
+      "timing": "16-18-18",
+      "frequency": "3200 МГц"
+    }
+  },
+  {
+    "id": 6,
+    "fullname": "Team Group T-Force Vulcan 32GB",
+    "brand": "Team Group",
+    "price": 11890,
+    "inStock": 6,
+    "images": ["1.webp"],
+    "country": "Тайвань",
+    "guarantee": 120,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "ram_type": "DDR5",
+      "value": "32GB",
+      "timing": "38-38-38-78",
+      "frequency": "6000 МГц"
+    }
+  }
+]

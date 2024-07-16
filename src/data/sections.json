@@ -1,0 +1,179 @@
+[
+  {
+    "id": 0,
+    "path": "motherboards",
+    "title": "Материнские платы",
+    "url": "/sections/motherboards_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Форм-фактор:",
+        "key": "form"
+      },
+      {
+        "title": "Под процессор:",
+        "key": "cpu"
+      },
+      {
+        "title": "Сокет:",
+        "key": "socket"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "path": "cpus",
+    "title": "Процессоры",
+    "url": "/sections/cpu_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Частота:",
+        "key": "frequency"
+      },
+      {
+        "title": "Тепловыделение:",
+        "key": "tdp"
+      },
+      {
+        "title": "Сокет:",
+        "key": "socket"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "path": "videocards",
+    "title": "Видеокарты",
+    "url": "/sections/videocard_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Объем видеопамяти:",
+        "key": "memory"
+      },
+      {
+        "title": "Частота видеопамяти:",
+        "key": "frequency"
+      },
+      {
+        "title": "Производитель чипа:",
+        "key": "manufacturer"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "path": "ram",
+    "title": "Оперативная память",
+    "url": "/sections/dram_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Тип ОЗУ:",
+        "key": "ram_type"
+      },
+      {
+        "title": "Объем памяти:",
+        "key": "value"
+      },
+      {
+        "title": "Частота:",
+        "key": "frequency"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "path": "memory",
+    "title": "Модули памяти",
+    "url": "/sections/memory_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Тип модуля:",
+        "key": "type"
+      },
+      {
+        "title": "Объем модуля:",
+        "key": "memory"
+      },
+      {
+        "title": "Скорость записи:",
+        "key": "write"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "path": "power",
+    "title": "Блоки питания",
+    "url": "/sections/pu_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Мощность:",
+        "key": "power"
+      },
+      {
+        "title": "Сертификат 80PLUS:",
+        "key": "certificate"
+      },
+      {
+        "title": "Форм-фактор:",
+        "key": "form"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "path": "frames",
+    "title": "Корпуса",
+    "url": "/sections/frame_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Форм-фактор:",
+        "key": "form"
+      },
+      {
+        "title": "Цвет:",
+        "key": "color"
+      },
+      {
+        "title": "Подсветка:",
+        "key": "light"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "path": "periphery",
+    "title": "Периферия",
+    "url": "/sections/periphery_bg.jpg",
+    "crucialInfo": [
+      {
+        "title": "Диагональ:",
+        "key": "diagonal"
+      },
+      {
+        "title": "Частота:",
+        "key": "frequency"
+      },
+      {
+        "title": "Разрешение:",
+        "key": "resolution"
+      },
+      {
+        "title": "Подсветка:",
+        "key": "light"
+      },
+      {
+        "title": "Переключатели:",
+        "key": "switches"
+      },
+      {
+        "title": "Цвет:",
+        "key": "color"
+      },
+      {
+        "title": "Раскладка:",
+        "key": "language"
+      }
+    ]
+  }
+]

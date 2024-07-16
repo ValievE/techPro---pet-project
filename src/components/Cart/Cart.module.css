@@ -1,0 +1,35 @@
+.body {
+  width: 1120px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.title {
+  width: 100%;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.list {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.empty {
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/cart/empty_cart.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,48 @@
+.selector {
+  display: flex;
+  user-select: none;
+  gap: 14px;
+  align-items: center;
+}
+
+.selector__text {
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.3s;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.slider {
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  position: relative;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.slider_dark {
+  background-color: rgb(0, 0, 0);
+}
+
+.slider_light {
+  background-color: black;
+}
+
+.slider__item {
+  width: 16px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  transition: all ease-in-out 0.3s;
+}
+
+.slider__item_light {
+  left: 2px;
+}
+
+.slider__item_dark {
+  left: 22px;
+}

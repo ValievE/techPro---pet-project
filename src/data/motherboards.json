@@ -1,0 +1,338 @@
+[
+  {
+    "id": 0,
+    "brand": "ASRock",
+    "model": "B450M-HDV R4.0",
+    "price": 6900,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 230,
+      "height": 201,
+      "weight": 0.74
+    },
+    "info": {
+      "cpu": "AMD",
+      "form": "Micro-ATX",
+      "ram_type": "2x3200МГц (DDR4)",
+      "socket": "AM4"
+    }
+  },
+  {
+    "id": 1,
+    "brand": "ASRock",
+    "model": "B760M Pro RS",
+    "price": 13790,
+    "inStock": 2,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 244,
+      "weight": 1.9
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x3200МГц (DDR4)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 2,
+    "brand": "ASRock",
+    "model": "H310CM-DVS",
+    "price": 4900,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 191,
+      "height": 188,
+      "weight": 0.74
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x2666МГц (DDR4)",
+      "socket": "LGA1151-v2"
+    }
+  },
+  {
+    "id": 3,
+    "brand": "ASRock",
+    "model": "H610M-HDV",
+    "price": 6700,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 197,
+      "height": 188,
+      "weight": 0.74
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x3200МГц (DDR4)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 4,
+    "brand": "ASUS",
+    "model": "PRIME B450M-K II",
+    "price": 7490,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 212,
+      "weight": 0.7
+    },
+    "info": {
+      "cpu": "AMD",
+      "form": "Micro-ATX",
+      "ram_type": "2x2666МГц (DDR4)",
+      "socket": "AM4"
+    }
+  },
+  {
+    "id": 5,
+    "brand": "ASUS",
+    "model": "PRIME H610M-K D4",
+    "price": 8400,
+    "inStock": 1,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 234,
+      "height": 203,
+      "weight": 0.69
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x3200МГц (DDR4)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 6,
+    "brand": "ASUS",
+    "model": "ROG STRIX B760-I GAMING WIFI",
+    "price": 23990,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 170,
+      "height": 170,
+      "weight": 1.2
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Mini-ITX",
+      "ram_type": "2x5600МГц (DDR5)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 7,
+    "brand": "ASUS",
+    "model": "TUF GAMING B760M-BTF WIFI",
+    "price": 25900,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 244,
+      "weight": 1.23
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "4x5600МГц (DDR5)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 8,
+    "brand": "GIGABYTE",
+    "model": "B650M AORUS ELITE AX",
+    "price": 22180,
+    "inStock": 1,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 244,
+      "weight": 1.1
+    },
+    "info": {
+      "cpu": "AMD",
+      "form": "Micro-ATX",
+      "ram_type": "2x5200Гц (DDR5)",
+      "socket": "AM5"
+    }
+  },
+  {
+    "id": 9,
+    "brand": "GIGABYTE",
+    "model": "B760M GAMING DDR4",
+    "price": 14490,
+    "inStock": 1,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 244,
+      "weight": 0.7
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "4x3200МГц (DDR4)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 10,
+    "brand": "GIGABYTE",
+    "model": "H610M K DDR4",
+    "price": 8990,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 226,
+      "height": 212,
+      "weight": 0.7
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x3200МГц (DDR4)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 11,
+    "brand": "GIGABYTE",
+    "model": "Z790I AORUS ULTRA",
+    "price": 25700,
+    "inStock": 3,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 170,
+      "height": 170,
+      "weight": 1.1
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Mini-ITX",
+      "ram_type": "2x4800МГц (DDR5)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 12,
+    "brand": "MSI",
+    "model": "B650M GAMING PLUS WIFI",
+    "price": 18900,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 244,
+      "weight": 1.7
+    },
+    "info": {
+      "cpu": "AMD",
+      "form": "Micro-ATX",
+      "ram_type": "4x4800МГц (DDR5)",
+      "socket": "AM5"
+    }
+  },
+  {
+    "id": 13,
+    "brand": "MSI",
+    "model": "MAG B760M MORTAR II",
+    "price": 18990,
+    "inStock": 3,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 244,
+      "weight": 0.7
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "4x5600МГц (DDR5)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 14,
+    "brand": "MSI",
+    "model": "PRO B760M-E",
+    "price": 9490,
+    "inStock": 1,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 236,
+      "height": 200,
+      "weight": 0.7
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x3200МГц (DDR4)",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 15,
+    "brand": "MSI",
+    "model": "PRO H510M-B",
+    "price": 5490,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 244,
+      "height": 212,
+      "weight": 0.7
+    },
+    "info": {
+      "cpu": "intel",
+      "form": "Micro-ATX",
+      "ram_type": "2x2933МГц (DDR4)",
+      "socket": "LGA 1200"
+    }
+  }
+]

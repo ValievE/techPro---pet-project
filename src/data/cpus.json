@@ -1,0 +1,178 @@
+[
+  {
+    "id": 0,
+    "fullname": "AMD Ryzen 5 5500 OEM",
+    "brand": "AMD",
+    "model": "Ryzen 5 5500",
+    "price": 8900,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp"],
+    "country": "Малайзия",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "3.6 ГГц",
+      "tdp": "65 ВТ",
+      "ram_type": "DDR4",
+      "socket": "AM4"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "AMD Ryzen 5 7500F OEM",
+    "brand": "AMD",
+    "model": "Ryzen 5 7500F",
+    "price": 18900,
+    "inStock": 3,
+    "images": ["1.webp", "2.webp"],
+    "country": "Малайзия",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "3.7 ГГц",
+      "tdp": "65 ВТ",
+      "ram_type": "DDR5",
+      "socket": "AM5"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "AMD Ryzen 7 5700X OEM",
+    "brand": "AMD",
+    "model": "Ryzen 7 5700X",
+    "price": 16900,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp"],
+    "country": "Малайзия",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "3.4 ГГц",
+      "tdp": "65 ВТ",
+      "ram_type": "DDR4",
+      "socket": "AM4"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "AMD Ryzen 7 7700 OEM",
+    "brand": "AMD",
+    "model": "Ryzen 7 7700",
+    "price": 29900,
+    "inStock": 3,
+    "images": ["1.webp", "2.webp"],
+    "country": "Китай",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "3.8 ГГц",
+      "tdp": "65 ВТ",
+      "ram_type": "DDR5",
+      "socket": "AM5"
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "Intel Core i5-10400F OEM",
+    "brand": "Intel",
+    "model": "i5-10400F",
+    "price": 9400,
+    "inStock": 1,
+    "images": ["1.webp", "2.webp"],
+    "country": "Вьетнам",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "2.9 ГГц",
+      "tdp": "65 ВТ",
+      "ram_type": "DDR4",
+      "socket": "LGA 1200"
+    }
+  },
+  {
+    "id": 5,
+    "fullname": "Intel Core i5-10600KF OEM",
+    "brand": "Intel",
+    "model": "i5-10600KF",
+    "price": 9990,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp"],
+    "country": "Вьетнам",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "4.1 ГГц",
+      "tdp": "125 ВТ",
+      "ram_type": "DDR4",
+      "socket": "LGA 1200"
+    }
+  },
+  {
+    "id": 6,
+    "fullname": "Intel Core i5-12400 OEM",
+    "brand": "Intel",
+    "model": "i5-12400",
+    "price": 14900,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp"],
+    "country": "Вьетнам",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "2.5 ГГц",
+      "tdp": "117 ВТ",
+      "ram_type": "DDR4/DDR5",
+      "socket": "LGA 1700"
+    }
+  },
+  {
+    "id": 7,
+    "fullname": "Intel Core i7-10700F OEM",
+    "brand": "Intel",
+    "model": "i7-10700F",
+    "price": 20210,
+    "inStock": 2,
+    "images": ["1.webp", "2.webp"],
+    "country": "Вьетнам",
+    "guarantee": 12,
+    "size": {
+      "width": 0,
+      "height": 0,
+      "weight": 0
+    },
+    "info": {
+      "frequency": "2.9 ГГц",
+      "tdp": "65 ВТ",
+      "ram_type": "DDR4",
+      "socket": "LGA 1200"
+    }
+  }
+]

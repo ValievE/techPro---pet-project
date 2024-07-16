@@ -1,0 +1,36 @@
+.search {
+  width: 400px;
+  height: 42px;
+  min-height: 42px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.search-button {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 9px;
+  top: 9px;
+  margin: auto 0;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-img {
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-left: 60px;
+  outline: none;
+  border: none;
+  border-radius: 0 0 15px 0;
+  font-weight: 400;
+}

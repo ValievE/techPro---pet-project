@@ -1,0 +1,85 @@
+.main {
+  width: 100%;
+  max-width: 1384px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 0 30px 0;
+  gap: 58px;
+  height: 88vh;
+}
+
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  cursor: default;
+  align-items: start;
+}
+
+.logo {
+  text-decoration: none;
+  width: fit-content;
+  grid-column: 2;
+  margin: 0 auto;
+}
+
+.logo-img {
+  display: block;
+  margin: 0 auto;
+  height: 42px;
+}
+
+.logo-text {
+  display: block;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 8px;
+  width: fit-content;
+  font-weight: 400;
+}
+
+.header-buttons {
+  justify-self: end;
+  display: flex;
+}
+
+.button-user-cabinet {
+  display: flex;
+  align-items: center;
+  padding: 9px 14px;
+  background-color: #cacaca;
+  gap: 11px;
+  outline: none;
+  border: none;
+  border-radius: 0 0 15px 0;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cacaca;
+  width: 56px;
+  gap: 6px;
+  outline: none;
+  border: none;
+  border-radius: 0 15px 0 0;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button-cart__img,
+.button-user-cabinet__img {
+  height: 22px;
+}
+
+.button-cart__text,
+.button-user-cabinet__text {
+  font-weight: 500;
+  font-size: 14px;
+}

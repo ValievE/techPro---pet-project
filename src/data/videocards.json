@@ -1,0 +1,134 @@
+[
+  {
+    "id": 0,
+    "fullname": "ASRock AMD Radeon RX 6900 XT Phantom Gaming D OC",
+    "brand": "ASRock",
+    "model": "RX 6900 XT",
+    "price": 79890,
+    "inStock": 2,
+    "images": ["1.webp", "2.webp", "3.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 330,
+      "height": 140,
+      "weight": 1.78
+    },
+    "info": {
+      "manufacturer": "AMD",
+      "memory": "16GB GDDR6",
+      "form": "PCI-E 4.0",
+      "frequency": "1925 МГц"
+    }
+  },
+  {
+    "id": 1,
+    "fullname": "ASRock AMD Radeon RX 7700 XT Steel Legend OC",
+    "brand": "ASRock",
+    "model": "RX 7700 XT",
+    "price": 54190,
+    "inStock": 5,
+    "images": ["1.webp", "2.webp", "3.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 304,
+      "height": 131,
+      "weight": 1.24
+    },
+    "info": {
+      "manufacturer": "AMD",
+      "memory": "12GB GDDR6",
+      "form": "PCI-E 4.0",
+      "frequency": "1900 МГц"
+    }
+  },
+  {
+    "id": 2,
+    "fullname": "GIGABYTE GeForce RTX 4090 WINDFORCE V2",
+    "brand": "GIGABYTE",
+    "model": "RTX 4090",
+    "price": 231890,
+    "inStock": 1,
+    "images": ["1.webp", "2.webp", "3.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 331,
+      "height": 136,
+      "weight": 2.1
+    },
+    "info": {
+      "manufacturer": "NVIDIA",
+      "memory": "24GB GDDR6X",
+      "form": "PCI-E 4.0",
+      "frequency": "2230 МГц"
+    }
+  },
+  {
+    "id": 3,
+    "fullname": "INNO3D GeForce RTX 4060 Ti TWIN X2",
+    "brand": "INNO3D",
+    "model": "RTX 4060 Ti",
+    "price": 45480,
+    "inStock": 6,
+    "images": ["1.webp", "2.webp", "3.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 250,
+      "height": 118,
+      "weight": 1.48
+    },
+    "info": {
+      "manufacturer": "NVIDIA",
+      "memory": "8GB GDDR6",
+      "form": "PCI-E 4.0",
+      "frequency": "2310 МГц"
+    }
+  },
+  {
+    "id": 4,
+    "fullname": "KFA2 GeForce RTX 4070 Ti SUPER X 3 FAN Black",
+    "brand": "KFA2",
+    "model": "RTX 4070 Ti SUPER",
+    "price": 103990,
+    "inStock": 3,
+    "images": ["1.webp", "2.webp", "3.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 323,
+      "height": 131,
+      "weight": 1.7
+    },
+    "info": {
+      "manufacturer": "NVIDIA",
+      "memory": "16GB GDDR6X",
+      "form": "PCI-E 4.0",
+      "frequency": "2340 МГц"
+    }
+  },
+  {
+    "id": 5,
+    "fullname": "Sapphire AMD Radeon RX 7900 GRE PULSE GAMING OC",
+    "brand": "Sapphire",
+    "model": "RX 7900 GRE",
+    "price": 65490,
+    "inStock": 4,
+    "images": ["1.webp", "2.webp", "3.webp"],
+    "country": "Китай",
+    "guarantee": 36,
+    "size": {
+      "width": 320,
+      "height": 129,
+      "weight": 1.78
+    },
+    "info": {
+      "manufacturer": "AMD",
+      "memory": "16GB GDDR6",
+      "form": "PCI-E 4.0",
+      "frequency": "1927 МГц"
+    }
+  }
+]
