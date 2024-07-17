@@ -36,6 +36,12 @@
   font-weight: 600;
   line-height: 14px;
   align-self: center;
+  cursor: pointer;
+  transition: 0.1s ease-in-out all;
+}
+
+.card-title:hover {
+  color: rgb(155, 155, 155);
 }
 
 .card-text {

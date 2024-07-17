@@ -36,7 +36,6 @@ const Card = (props: CartCardProps) => {
   const actualSection = SectionsData.find((item) => item.path === section);
 
   const setImage = (): string => {
-    console.log(section);
     const url: string = `/catalog/${section}/${orderObject?.fullname ? orderObject?.fullname : orderObject?.brand + " " + orderObject?.model}/1.webp`;
     return `url('${url}')`;
   };

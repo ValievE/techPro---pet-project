@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import Styles from "./Card.module.css";
 import SectionsData from "data/sections.json";
 import { useOutletContext } from "react-router-dom";
+import { CardContext } from "contexts/CardContext";
 
 type CardItem = {
   object: CatalogObject;
@@ -16,6 +17,8 @@ type GetContext = {
 };
 
 const Card = (props: CardItem) => {
+  const MyNewContext = useContext(CardContext);
+
   const { cartItem, setCartItem, favItem, setFavItem } =
     useOutletContext<GetContext>();
 
@@ -31,6 +34,11 @@ const Card = (props: CardItem) => {
       return "url('/icons/icon_like_active.svg')";
     }
     return "url('/icons/icon_like.svg')";
+  };
+
+  const openCard = () => {
+    MyNewContext?.modalState[1](true);
+    MyNewContext?.cardInfo[1](props.object);
   };
 
   const addToCart = (id: number, section: Sections) => {
@@ -86,11 +94,11 @@ const Card = (props: CardItem) => {
         }}
       ></div>
       <div className={Styles["card-info"]}>
-        <div className={Styles["card-title"]}>
+        <span className={Styles["card-title"]} onClick={() => openCard()}>
           {props.object.fullname
             ? props.object.fullname
             : `${props.object.brand} ${props.object.model}`}
-        </div>
+        </span>
         <div className={Styles["card-text"]}>
           {actualSection?.crucialInfo.map((item) => {
             if (Object.keys(props.object.info).includes(item.key)) {

@@ -17,7 +17,7 @@
     "info": {
       "manufacturer": "AMD",
       "memory": "16GB GDDR6",
-      "form": "PCI-E 4.0",
+      "interface": "PCI-E 4.0",
       "frequency": "1925 МГц"
     }
   },
@@ -39,7 +39,7 @@
     "info": {
       "manufacturer": "AMD",
       "memory": "12GB GDDR6",
-      "form": "PCI-E 4.0",
+      "interface": "PCI-E 4.0",
       "frequency": "1900 МГц"
     }
   },
@@ -61,7 +61,7 @@
     "info": {
       "manufacturer": "NVIDIA",
       "memory": "24GB GDDR6X",
-      "form": "PCI-E 4.0",
+      "interface": "PCI-E 4.0",
       "frequency": "2230 МГц"
     }
   },
@@ -83,7 +83,7 @@
     "info": {
       "manufacturer": "NVIDIA",
       "memory": "8GB GDDR6",
-      "form": "PCI-E 4.0",
+      "interface": "PCI-E 4.0",
       "frequency": "2310 МГц"
     }
   },
@@ -105,7 +105,7 @@
     "info": {
       "manufacturer": "NVIDIA",
       "memory": "16GB GDDR6X",
-      "form": "PCI-E 4.0",
+      "interface": "PCI-E 4.0",
       "frequency": "2340 МГц"
     }
   },
@@ -127,7 +127,7 @@
     "info": {
       "manufacturer": "AMD",
       "memory": "16GB GDDR6",
-      "form": "PCI-E 4.0",
+      "interface": "PCI-E 4.0",
       "frequency": "1927 МГц"
     }
   }

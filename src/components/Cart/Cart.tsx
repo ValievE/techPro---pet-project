@@ -33,6 +33,7 @@ const Cart = (props: CartProps) => {
       } else if (foundItem?.quantity) {
         foundItem.quantity = foundItem?.quantity - 1;
       }
+
       if (foundItem) {
         if (foundItem?.quantity) {
           props.setCartItem((oldValue) => {
@@ -42,11 +43,8 @@ const Cart = (props: CartProps) => {
                   `${item.section}${item.id}` === `${itemSection}${itemId}`
               ) as CartItem
             );
-            const newValue = oldValue.splice(
-              foundItemIndex,
-              1,
-              foundItem as CartItem
-            );
+            const newValue = oldValue.map((x) => x);
+            newValue.splice(foundItemIndex, 1, foundItem as CartItem);
             return newValue;
           });
           return;

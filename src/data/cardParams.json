@@ -1,0 +1,190 @@
+[
+  {
+    "id": 0,
+    "title": "Заводская информация",
+    "params": [
+      {
+        "param": "Производитель",
+        "key": "brand",
+        "path": "brand"
+      },
+      {
+        "param": "Страна производителя",
+        "key": "country",
+        "path": "country"
+      },
+      {
+        "param": "Гарантия производителя",
+        "key": "guarantee",
+        "path": "guarantee"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Технические параметры",
+    "params": [
+      {
+        "param": "Мощность",
+        "key": "power",
+        "path": "info.power"
+      },
+      {
+        "param": "Сертификат 80 PLUS",
+        "key": "certificate",
+        "path": "info.certificate"
+      },
+      {
+        "param": "Защита",
+        "key": "protection",
+        "path": "info.protection"
+      },
+      {
+        "param": "Диагональ экрана",
+        "key": "diagonal",
+        "path": "info.diagonal"
+      },
+      {
+        "param": "Изогнутый дисплей",
+        "key": "curved",
+        "path": "info.curved"
+      },
+      {
+        "param": "Разрешение",
+        "key": "resolution",
+        "path": "info.resolution"
+      },
+      {
+        "param": "Тип переключателей",
+        "key": "switches",
+        "path": "info.switches"
+      },
+      {
+        "param": "Тип",
+        "key": "type",
+        "path": "info.type"
+      },
+      {
+        "param": "Объем памяти",
+        "key": "memory",
+        "path": "info.memory"
+      },
+      {
+        "param": "DRAM буфер",
+        "key": "dram",
+        "path": "info.dram"
+      },
+      {
+        "param": "NVMe",
+        "key": "nvme",
+        "path": "info.nvme"
+      },
+      {
+        "param": "Скорость чтения",
+        "key": "read",
+        "path": "info.read"
+      },
+      {
+        "param": "Скорость записи",
+        "key": "write",
+        "path": "info.write"
+      },
+      {
+        "param": "Частота",
+        "key": "frequency",
+        "path": "info.frequency"
+      },
+      {
+        "param": "Тепловыделение",
+        "key": "tdp",
+        "path": "info.tdp"
+      },
+      {
+        "param": "Для процессоров",
+        "key": "cpu",
+        "path": "info.cpu"
+      },
+      {
+        "param": "Подсветка",
+        "key": "light",
+        "path": "info.light"
+      },
+      {
+        "param": "Цвет",
+        "key": "color",
+        "path": "info.color"
+      },
+      {
+        "param": "Тип ОЗУ",
+        "key": "ram_type",
+        "path": "info.ram_type"
+      },
+      {
+        "param": "Сокет",
+        "key": "socket",
+        "path": "info.socket"
+      },
+      {
+        "param": "Объем",
+        "key": "value",
+        "path": "info.value"
+      },
+      {
+        "param": "Размер материнской платы",
+        "key": "motherboards",
+        "path": "info.motherboards"
+      },
+      {
+        "param": "Тайминги",
+        "key": "timing",
+        "path": "info.timing"
+      },
+      {
+        "param": "Производитель чипа",
+        "key": "manufacturer",
+        "path": "info.manufacturer"
+      },
+      {
+        "param": "Раскладка",
+        "key": "language",
+        "path": "info.language"
+      },
+      {
+        "param": "Интерфейс подключения",
+        "key": "interface",
+        "path": "info.language"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Размеры",
+    "params": [
+      {
+        "param": "Форм-фактор",
+        "key": "form",
+        "path": "info.form"
+      },
+      {
+        "param": "Длина",
+        "key": "length",
+        "path": "size.length"
+      },
+      {
+        "param": "Ширина",
+        "key": "width",
+        "path": "size.width"
+      },
+      {
+        "param": "Высота",
+        "key": "height",
+        "path": "size.height"
+      },
+      {
+        "param": "Масса",
+        "key": "weigh",
+        "path": "size.weigh"
+      }
+    ]
+  }
+]

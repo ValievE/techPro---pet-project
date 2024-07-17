@@ -1,6 +1,18 @@
 declare global {
   type ModalProps = [boolean, React.Dispatch<React.SetStateAction<boolean>>];
 
+  type CardParam = {
+    param: string;
+    key: string;
+    path: string;
+  };
+
+  type CardParams = {
+    id: number;
+    title: string;
+    params: CardParam[];
+  };
+
   type CartItem = {
     section: Sections;
     id: number;
@@ -46,6 +58,7 @@ declare global {
     timing?: string;
     manufacturer?: string;
     language?: string;
+    interface?: string;
   };
 
   type CrucialInfo = {
