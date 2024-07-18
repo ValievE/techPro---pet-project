@@ -5,7 +5,7 @@ import Sections from "data/sections.json";
 import Filters from "./components/Filters/Filters";
 import ModalWindow from "components/ModalWindow/ModalWindow";
 import ItemCard from "components/ItemCard/ItemCard";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { CardContext } from "contexts/CardContext";
 import { ItemContext } from "contexts/ItemContext";
 import CatalogContextProvider from "contexts/CatalogContext";
@@ -20,10 +20,16 @@ function CatalogPage() {
 
   useEffect(() => {
     itemContextData?.[1](actualPath?.path as Sections);
-  });
+  }, []);
 
   return (
     <div className={Styles["catalog-page"]}>
+      <Link
+        className={`${Styles["go-back-button"]} bg_light-khaki color_dark-gray`}
+        to={"/"}
+      >
+        на главную
+      </Link>
       <CatalogContextProvider>
         {cardContextData?.modalState[0] ? (
           <ModalWindow

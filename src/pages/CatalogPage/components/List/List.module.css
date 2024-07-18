@@ -8,4 +8,25 @@
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 180px;
   gap: 18px;
+  position: relative;
+}
+
+@media (max-width: 1274px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 990px) {
+  .list {
+    grid-auto-rows: 160px;
+  }
+}
+
+@media (max-width: 800px) {
+  .list {
+    grid-auto-rows: 130px;
+    padding: 20px 10px;
+    gap: 18px;
+  }
 }

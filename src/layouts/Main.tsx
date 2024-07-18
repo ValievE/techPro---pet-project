@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Main.css";
 import { Link, Outlet, useLocation } from "react-router-dom";
 // import ThemeSelector from "../components/ThemeSelector/ThemeSelector";
@@ -7,42 +7,71 @@ import ModalWindow from "components/ModalWindow/ModalWindow";
 import Cart from "components/Cart/Cart";
 import CardContext from "contexts/CardContext";
 import ItemContextProvider from "contexts/ItemContext";
+import { CartFavContext } from "contexts/CartFavContext";
+import { WarningContext } from "contexts/WarningContext";
+import WarningPopup from "components/WarningPopup/WarningPopup";
 
 function Main() {
   // const actualPath = useLocation();
-  const [cartItem, setCartItem] = useState<CartItem[]>([]);
-  const [favItem, setFavItem] = useState<CartItem[]>([]);
+  const warningContextData = useContext(WarningContext);
+  const cartFavContextData = useContext(CartFavContext);
   const [isCartModalOpened, setIsCartModalOpened] = useState<boolean>(false);
 
   useEffect(() => {
-    if (!cartItem.length || !favItem.length) {
+    if (
+      !cartFavContextData?.cartList[0].length ||
+      !cartFavContextData?.favList[0].length
+    ) {
       if (localStorage.length) {
         localStorage.getItem("cartItems")
-          ? setCartItem(JSON.parse(localStorage.getItem("cartItems") as string))
-          : setCartItem([]);
+          ? cartFavContextData?.cartList[1](
+              JSON.parse(localStorage.getItem("cartItems") as string)
+            )
+          : cartFavContextData?.cartList[1]([]);
         localStorage.getItem("favItems")
-          ? setFavItem(JSON.parse(localStorage.getItem("favItems") as string))
-          : setFavItem([]);
+          ? cartFavContextData?.favList[1](
+              JSON.parse(localStorage.getItem("favItems") as string)
+            )
+          : cartFavContextData?.favList[1]([]);
       }
     }
   }, []);
 
   useEffect(() => {
-    if (cartItem.length || favItem.length) {
+    if (
+      cartFavContextData?.cartList[0].length ||
+      cartFavContextData?.favList[0].length
+    ) {
       localStorage.clear();
-      localStorage.setItem("cartItems", JSON.stringify(cartItem));
-      localStorage.setItem("favItems", JSON.stringify(favItem));
+      localStorage.setItem(
+        "cartItems",
+        JSON.stringify(cartFavContextData?.cartList[0])
+      );
+      localStorage.setItem(
+        "favItems",
+        JSON.stringify(cartFavContextData?.favList[0])
+      );
     }
-  }, [cartItem, favItem]);
+  }, [cartFavContextData?.cartList[0], cartFavContextData?.favList[0]]);
 
   return (
     <div className="main">
       {isCartModalOpened ? (
         <ModalWindow state={[isCartModalOpened, setIsCartModalOpened]}>
-          <Cart {...{ cartItem, setCartItem }} />
+          <Cart />
         </ModalWindow>
       ) : (
         ""
+      )}
+
+      {warningContextData!.warningList[0].length > 0 && (
+        <div className="warning-popups">
+          {warningContextData?.warningList[0].map((warning) => (
+            <WarningPopup type={warning.type} key={warning.id}>
+              <p>{warning.text}</p>
+            </WarningPopup>
+          ))}
+        </div>
       )}
       <header className="header">
         {/* <ThemeSelector /> */}
@@ -72,8 +101,10 @@ function Main() {
               src="/icons/icon_cart.svg"
               alt=""
             />
-            {cartItem.length > 0 ? (
-              <span className="button-cart__text">{cartItem.length}</span>
+            {(cartFavContextData?.cartList[0].length as number) > 0 ? (
+              <span className="button-cart__text">
+                {cartFavContextData?.cartList[0].length}
+              </span>
             ) : (
               ""
             )}
@@ -83,7 +114,7 @@ function Main() {
       {/* {!actualPath.pathname.includes("catalog") ? <SearchWindow /> : ""} */}
       <ItemContextProvider>
         <CardContext>
-          <Outlet context={{ cartItem, setCartItem, favItem, setFavItem }} />
+          <Outlet />
         </CardContext>
       </ItemContextProvider>
     </div>

@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import Styles from "./Cart.module.css";
 import GreenButton from "components/UI/GreenButton/GreenButton";
 import Card from "./components/Card/Card";
+import { CartFavContext } from "contexts/CartFavContext";
+import { WarningContext } from "contexts/WarningContext";
 
-type CartProps = {
-  cartItem: CartItem[];
-  setCartItem: React.Dispatch<React.SetStateAction<CartItem[]>>;
-};
+const Cart = () => {
+  const cartFavContextData = useContext(CartFavContext);
+  const warningContextData = useContext(WarningContext);
 
-const Cart = (props: CartProps) => {
   const deleteOrder = (itemId: number, itemSection: Sections) => {
-    props.setCartItem((oldValue) =>
+    cartFavContextData?.cartList[1]((oldValue) =>
       oldValue.filter(
         (oldItem) =>
           `${oldItem.id} ${oldItem.section}` !== `${itemId} ${itemSection}`
@@ -18,13 +18,41 @@ const Cart = (props: CartProps) => {
     );
   };
 
+  const fakeBuy = () => {
+    const newWarning = {
+      id: warningContextData?.warningList[0].length
+        ? warningContextData.warningList[0][
+            warningContextData?.warningList[0].length - 1
+          ].id + 1
+        : 0,
+      text: "Ошибка. Не удается выполнить операцию",
+      type: "error" as const,
+    };
+    warningContextData?.warningList[1]((oldValue) => {
+      const newArray = oldValue.map((item) => item);
+      newArray.push(newWarning);
+      return newArray;
+    });
+  };
+
+  const getPrice = () => {
+    if (cartFavContextData?.cartList[0].length) {
+      const price: number = cartFavContextData.cartList[0].reduce(
+        (acc, number) => acc + number.price * number.quantity,
+        0
+      );
+      return price;
+    }
+    return 0;
+  };
+
   const changeQuantity = (
     itemId: number,
     itemSection: Sections,
     action: boolean
   ) => {
-    if (props.cartItem) {
-      const foundItem = props.cartItem.find(
+    if (cartFavContextData?.cartList[0]) {
+      const foundItem = cartFavContextData.cartList[0].find(
         (item) => `${item.section}${item.id}` === `${itemSection}${itemId}`
       );
 
@@ -36,7 +64,7 @@ const Cart = (props: CartProps) => {
 
       if (foundItem) {
         if (foundItem?.quantity) {
-          props.setCartItem((oldValue) => {
+          cartFavContextData.cartList[1]((oldValue) => {
             const foundItemIndex = oldValue.indexOf(
               oldValue.find(
                 (item) =>
@@ -58,22 +86,39 @@ const Cart = (props: CartProps) => {
     <section className={Styles.body}>
       <h1 className={Styles.title}>Корзина</h1>
       <div className={`custom-scroll ${Styles.list}`}>
-        {props.cartItem.length ? "" : <div className={Styles.empty}></div>}
-        {props.cartItem.map((currentItem) => (
+        {cartFavContextData?.cartList[0].length ? (
+          ""
+        ) : (
+          <div className={Styles.empty}></div>
+        )}
+        {cartFavContextData?.cartList[0].map((currentItem) => (
           <Card
             {...currentItem}
-            index={props.cartItem.indexOf(currentItem)}
+            index={cartFavContextData.cartList[0].indexOf(currentItem)}
             deleteOrder={deleteOrder}
             changeQuantity={changeQuantity}
             key={`${currentItem.section}${currentItem.id}`}
           />
         ))}
       </div>
-      <GreenButton
-        text="перейти к оплате"
-        icon="cart"
-        isDisabled={props.cartItem.length ? false : true}
-      />
+      <footer
+        className={Styles.footer}
+        style={{ gridTemplateColumns: getPrice() ? `50% 50%` : `100%` }}
+      >
+        {getPrice() ? (
+          <span className={Styles.summary}>{`Сумма: ${getPrice()}₽`}</span>
+        ) : (
+          ""
+        )}
+        <GreenButton
+          text="перейти к оплате"
+          icon="cart"
+          isDisabled={cartFavContextData?.cartList[0].length ? false : true}
+          function={() => {
+            fakeBuy();
+          }}
+        />
+      </footer>
     </section>
   );
 };

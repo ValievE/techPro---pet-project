@@ -9,3 +9,17 @@
 .card-link {
   text-decoration: none;
 }
+
+@media (max-width: 990px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 220px;
+  }
+}

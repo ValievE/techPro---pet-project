@@ -17,6 +17,7 @@ declare global {
     section: Sections;
     id: number;
     quantity: number;
+    price: number;
   };
 
   type Sections =

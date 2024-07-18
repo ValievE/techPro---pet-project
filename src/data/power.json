@@ -22,22 +22,22 @@
   },
   {
     "id": 1,
-    "fullname": "DEEPCOOL PF500 [R-PF500D-HA0B-EU]",
+    "fullname": "DEEPCOOL PK650D [R-PK650D-FA0B-EU]",
     "brand": "DEEPCOOL",
-    "price": 3990,
-    "inStock": 3,
+    "price": 6190,
+    "inStock": 4,
     "images": ["1.webp"],
     "country": "Китай",
-    "guarantee": 36,
+    "guarantee": 60,
     "size": {
       "width": 0,
       "height": 0,
       "weight": 0
     },
     "info": {
-      "power": "500 Вт",
-      "certificate": "Standart",
-      "protection": "OPP, OVP, SCP, UVP",
+      "power": "650 Вт",
+      "certificate": "Bronze",
+      "protection": "OCP, OPP, OTP, OVP, SCP, UVP",
       "form": "ATX"
     }
   },
@@ -85,22 +85,22 @@
   },
   {
     "id": 4,
-    "fullname": "DEEPCOOL PK650D [R-PK650D-FA0B-EU]",
+    "fullname": "DEEPCOOL PF500 [R-PF500D-HA0B-EU]",
     "brand": "DEEPCOOL",
-    "price": 6190,
-    "inStock": 4,
+    "price": 3990,
+    "inStock": 3,
     "images": ["1.webp"],
     "country": "Китай",
-    "guarantee": 60,
+    "guarantee": 36,
     "size": {
       "width": 0,
       "height": 0,
       "weight": 0
     },
     "info": {
-      "power": "650 Вт",
-      "certificate": "Bronze",
-      "protection": "OCP, OPP, OTP, OVP, SCP, UVP",
+      "power": "500 Вт",
+      "certificate": "Standart",
+      "protection": "OPP, OVP, SCP, UVP",
       "form": "ATX"
     }
   },

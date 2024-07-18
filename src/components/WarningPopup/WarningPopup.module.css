@@ -1,0 +1,61 @@
+.popup {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: appear 0.2s ease-in-out;
+  box-sizing: border-box;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.icon {
+  min-width: 14%;
+  width: 14%;
+  aspect-ratio: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  shape-outside: circle(50%);
+  margin-right: 10px;
+}
+
+.warning-icon {
+  background-image: url("/public/icons/icon_success.svg");
+}
+
+.error-icon {
+  background-image: url("/public/icons/icon_cross.svg");
+  background-color: rgb(255, 173, 173);
+  border-radius: 50%;
+  background-size: 60%;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+    background-color: white;
+  }
+  30% {
+    background-color: rgb(122, 122, 122);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+    background-color: white;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

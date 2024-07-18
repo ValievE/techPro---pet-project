@@ -16,7 +16,7 @@ function Gallery() {
             to={`catalog/${item.path}`}
             key={item.path}
           >
-            <Card {...item} key={item.id} />;
+            <Card {...item} key={item.id} />
           </Link>
         );
       })}

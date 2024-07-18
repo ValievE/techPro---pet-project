@@ -1,6 +1,5 @@
 .main-page {
   width: 100%;
-  max-width: 1384px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -14,4 +13,18 @@
   font-size: 32px;
   font-weight: 300;
   cursor: default;
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .main-page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-page {
+    gap: 40px;
+    padding-bottom: 20px;
+  }
 }

@@ -1,84 +1,85 @@
 import React, { useContext } from "react";
 import Styles from "./Card.module.css";
 import SectionsData from "data/sections.json";
-import { useOutletContext } from "react-router-dom";
 import { CardContext } from "contexts/CardContext";
+import { CartFavContext } from "contexts/CartFavContext";
+import { WarningContext } from "contexts/WarningContext";
+import { AddToCart } from "scripts/addToCart";
 
 type CardItem = {
   object: CatalogObject;
   section?: string;
 };
 
-type GetContext = {
-  cartItem: CartItem[];
-  setCartItem: React.Dispatch<React.SetStateAction<CartItem[]>>;
-  favItem: CartItem[];
-  setFavItem: React.Dispatch<React.SetStateAction<CartItem[]>>;
-};
-
 const Card = (props: CardItem) => {
-  const MyNewContext = useContext(CardContext);
-
-  const { cartItem, setCartItem, favItem, setFavItem } =
-    useOutletContext<GetContext>();
+  const cardContextData = useContext(CardContext);
+  const cartFavContextData = useContext(CartFavContext);
+  const warningContextData = useContext(WarningContext);
 
   const checkCart = (id: number, section: string): string => {
-    if (cartItem.find((item) => item.id === id && item.section === section)) {
+    if (
+      cartFavContextData?.cartList[0].find(
+        (item) => item.id === id && item.section === section
+      )
+    ) {
       return "url('/icons/icon_cart_active.svg')";
     }
     return "url('/icons/icon_cart.svg')";
   };
 
   const checkFavorites = (id: number, section: string): string => {
-    if (favItem.find((item) => item.id === id && item.section === section)) {
+    if (
+      cartFavContextData?.favList[0].find(
+        (item) => item.id === id && item.section === section
+      )
+    ) {
       return "url('/icons/icon_like_active.svg')";
     }
     return "url('/icons/icon_like.svg')";
   };
 
   const openCard = () => {
-    MyNewContext?.modalState[1](true);
-    MyNewContext?.cardInfo[1](props.object);
-  };
-
-  const addToCart = (id: number, section: Sections) => {
-    const foundItem = cartItem.find(
-      (item) => item.id === id && item.section === section
-    );
-
-    if (!foundItem) {
-      setCartItem((oldValue) => [
-        ...oldValue,
-        {
-          id: id,
-          section: section,
-          quantity: 1,
-        },
-      ]);
-      return;
-    }
-
-    setCartItem((oldValue) => oldValue.filter((item) => item.id !== id));
+    cardContextData?.modalState[1](true);
+    cardContextData?.cardInfo[1](props.object);
   };
 
   const addToFav = (id: number, section: Sections) => {
-    const foundItem = favItem.find(
+    const foundItem = cartFavContextData?.favList[0].find(
       (item) => item.id === id && item.section === section
     );
 
     if (!foundItem) {
-      setFavItem((oldValue) => [
-        ...oldValue,
-        {
-          id: id,
-          section: section,
-          quantity: 1,
-        },
-      ]);
+      if (cartFavContextData?.favList[0]) {
+        const newWarning = {
+          id: warningContextData?.warningList[0].length
+            ? warningContextData.warningList[0][
+                warningContextData?.warningList[0].length - 1
+              ].id + 1
+            : 0,
+          text: "Товар добавлен в избранное",
+          type: "warning" as const,
+        };
+        warningContextData?.warningList[1]((oldValue) => {
+          const newArray = oldValue.map((item) => item);
+          newArray.push(newWarning);
+          return newArray;
+        });
+        cartFavContextData?.favList[1]((oldValue) => [
+          ...(oldValue as CartItem[]),
+          {
+            id: id,
+            section: section,
+            quantity: 1,
+            price: props.object.price,
+          },
+        ]);
+      }
       return;
     }
 
-    setFavItem((oldValue) => oldValue.filter((item) => item.id !== id));
+    cartFavContextData?.favList[1]((oldValue) =>
+      oldValue!.filter((item) => item.id !== id)
+    );
   };
 
   const actualSection = SectionsData.find(
@@ -139,7 +140,13 @@ const Card = (props: CardItem) => {
             />
             <input
               onClick={() =>
-                addToCart(props.object.id, props.section as Sections)
+                AddToCart(
+                  props.object.id,
+                  props.section as Sections,
+                  props.object.price,
+                  cartFavContextData,
+                  warningContextData
+                )
               }
               className={Styles["card-button"]}
               type="button"

@@ -1,6 +1,5 @@
 .catalog-page {
   width: 100%;
-  max-width: 1384px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -8,6 +7,7 @@
   margin: 0 auto;
   gap: 58px;
   height: 100%;
+  position: relative;
 }
 
 .title {
@@ -15,6 +15,7 @@
   font-size: 32px;
   font-weight: 300;
   cursor: default;
+  text-align: center;
 }
 
 .catalog {
@@ -24,4 +25,59 @@
   border-radius: 10px;
   grid-template-columns: 274px 1fr;
   overflow: hidden;
+  position: relative;
+}
+
+.go-back-button {
+  position: absolute;
+  width: 274px;
+  height: 50px;
+  left: 0;
+  top: 50px;
+  border-radius: 10px 10px 0 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.go-back-button:hover {
+  background-color: rgb(137, 177, 78);
+}
+
+@media (max-width: 800px) {
+  .catalog-page {
+    gap: 60px;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: default;
+    text-align: center;
+  }
+
+  .catalog {
+    grid-template-columns: 1fr;
+  }
+
+  .go-back-button {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 15px;
+    top: 40px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 13px;
+  }
 }

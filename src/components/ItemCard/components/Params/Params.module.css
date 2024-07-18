@@ -5,6 +5,9 @@
   gap: 20px;
   box-sizing: border-box;
   padding-right: 5px;
+  background-color: rgba(211, 211, 211, 0.4);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .section {
@@ -43,4 +46,41 @@
   flex-grow: 1;
   height: 14px;
   border-bottom: dotted 1px black;
+}
+
+@media (max-width: 800px) {
+  .body {
+    padding: 10px 6px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .section {
+    gap: 4px;
+  }
+
+  .section__title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .param {
+    gap: 5px;
+  }
+
+  .name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .value {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .dots {
+    flex-grow: 1;
+    height: 14px;
+    border-bottom: dotted 1px black;
+  }
 }

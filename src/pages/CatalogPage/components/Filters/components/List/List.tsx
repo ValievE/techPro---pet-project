@@ -49,7 +49,7 @@ const List = () => {
   return (
     <div className={Styles.list}>
       <Filter {...sortByPriceData} key={"sortByPrice"} />
-      {actualFilters.map((item) => (
+      {actualFilters.sort().map((item) => (
         <Filter
           {...setFilterData(
             item.title,

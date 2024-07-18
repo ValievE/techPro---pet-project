@@ -3,6 +3,8 @@ import Styles from "./List.module.css";
 import Card from "./components/Card/Card";
 import { CatalogContext } from "contexts/CatalogContext";
 import { useSearchParams } from "react-router-dom";
+import Loader from "components/UI/Loader/Loader";
+
 type Props = {
   props: string;
 };
@@ -66,11 +68,13 @@ const List = (props: Props) => {
 
   return (
     <div className={`${Styles.list} custom-scroll`}>
-      {catalogContextData?.visisbleCatalogList[0]?.length
-        ? catalogContextData.visisbleCatalogList[0].map((item) => (
-            <Card object={item} section={props.props} key={item.id} />
-          ))
-        : ""}
+      {catalogContextData?.visisbleCatalogList[0]?.length ? (
+        catalogContextData.visisbleCatalogList[0].map((item) => (
+          <Card object={item} section={props.props} key={item.id} />
+        ))
+      ) : (
+        <Loader />
+      )}
     </div>
   );
 };

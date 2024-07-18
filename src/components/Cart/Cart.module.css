@@ -33,3 +33,49 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.summary {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+  .body {
+    width: 880px;
+  }
+}
+
+@media (max-width: 990px) {
+  .body {
+    width: 100%;
+  }
+
+  .empty {
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .summary {
+    font-size: 20px;
+  }
+}
