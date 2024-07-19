@@ -72,6 +72,10 @@ const List = (props: Props) => {
         catalogContextData.visisbleCatalogList[0].map((item) => (
           <Card object={item} section={props.props} key={item.id} />
         ))
+      ) : catalogContextData?.bufferedCatalogList[0].length ? (
+        <p className={Styles.warning}>
+          товары с такими параметрами не обнаружены
+        </p>
       ) : (
         <Loader />
       )}

@@ -4,6 +4,7 @@ import GreenButton from "components/UI/GreenButton/GreenButton";
 import Card from "./components/Card/Card";
 import { CartFavContext } from "contexts/CartFavContext";
 import { WarningContext } from "contexts/WarningContext";
+import { CreateWarning } from "hooks/createWarning";
 
 const Cart = () => {
   const cartFavContextData = useContext(CartFavContext);
@@ -28,11 +29,9 @@ const Cart = () => {
       text: "Ошибка. Не удается выполнить операцию",
       type: "error" as const,
     };
-    warningContextData?.warningList[1]((oldValue) => {
-      const newArray = oldValue.map((item) => item);
-      newArray.push(newWarning);
-      return newArray;
-    });
+    if (warningContextData) {
+      CreateWarning(newWarning, warningContextData);
+    }
   };
 
   const getPrice = () => {

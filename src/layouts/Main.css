@@ -127,6 +127,12 @@
     height: 88svh;
   }
 
+  .warning-popups {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+
   .header {
     width: 100%;
     display: flex;

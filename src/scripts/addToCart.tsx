@@ -1,5 +1,6 @@
 import type { CartFavContextType } from "contexts/CartFavContext";
 import type { WarningContextType } from "contexts/WarningContext";
+import { CreateWarning } from "hooks/createWarning";
 
 export function AddToCart(
   id: number,
@@ -22,11 +23,14 @@ export function AddToCart(
         text: "Товар добавлен в корзину",
         type: "warning" as const,
       };
-      warningContextData?.warningList[1]((oldValue) => {
-        const newArray = oldValue.map((item) => item);
-        newArray.push(newWarning);
-        return newArray;
-      });
+      if (warningContextData) {
+        CreateWarning(newWarning, warningContextData!);
+      }
+      // warningContextData?.warningList[1]((oldValue) => {
+      //   const newArray = oldValue.map((item) => item);
+      //   newArray.push(newWarning);
+      //   return newArray;
+      // });
       cartFavContextData?.cartList[1]((oldValue) => [
         ...oldValue,
         {
