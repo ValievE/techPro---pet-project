@@ -6,7 +6,7 @@ import { WarningContext } from "contexts/WarningContext";
 import Styles from "./ItemCard.module.css";
 import Params from "./components/Params/Params";
 import GreenButton from "components/UI/GreenButton/GreenButton";
-import { AddToCart } from "scripts/addToCart";
+import { AddToCart } from "hooks/addToCart";
 
 const ItemCard = () => {
   const cardContextData = useContext(CardContext);

@@ -4,7 +4,7 @@ import SectionsData from "data/sections.json";
 import { CardContext } from "contexts/CardContext";
 import { CartFavContext } from "contexts/CartFavContext";
 import { WarningContext } from "contexts/WarningContext";
-import { AddToCart } from "scripts/addToCart";
+import { AddToCart } from "hooks/addToCart";
 
 type CardItem = {
   object: CatalogObject;
